@@ -589,6 +589,8 @@ MonoBehaviour:
     manaText: {fileID: 7957225043973253588}
     attackText: {fileID: 7957225045249490576}
     healthText: {fileID: 7957225044553019908}
+    updateTextTime: 0.5
+    updateTextEase: 1
   dadc: {fileID: 7652253754654522631}
 --- !u!210 &2870768057361639996
 SortingGroup:
@@ -641,7 +643,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HandlerPrefab: {fileID: 0}
   timeToDragPosition: 0.3
-  speedOfMovingToStart: 12
   checkError: 1
   power: 20
 --- !u!1 &7957225043936771694
